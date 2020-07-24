@@ -1,23 +1,34 @@
 body {
-    background-color: pink;
+   font-family: Helvetica, Arial;
+   font-size: 0.9rem;
+   color:#333;
 }
 
-div {
-    margin: auto;
+.container{
+margin: auto;
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: white;
+    border:15px solid pink;
+}
+div {
+
 }
 
-h1 {
-    margin: auto;
-        width: 50%;
-        padding: 10px;
-        text-align: center;
-        background-color: white;
-}
+h1 {padding: 10px; text-align: center; text-transform:uppercase; font-weight:normal;}
+h2{color:#666; font-weight:normal; padding:1rem 0;text-transform:uppercase;}
+.username{ color:#e693a4; font-weight:bold; font-size:1rem;}
 
+h2:after{content:"";
+margin:auto;
+    width:7%;
+    height:1px;
+    background: pink;
+    display:block;
+    margin-top:10px;
+}
+#servicesMenu{padding-top:1rem;}
+h3{color:#8a8989;}
 table {
     margin: auto;
             width: 50%;
